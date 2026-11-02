@@ -3,6 +3,6 @@ builder = "DOCKERFILE"
 dockerfilePath = "Dockerfile"
 
 [deploy]
-healthcheckPath = "/manifest.json"
-healthcheckTimeout = 120
+
+
 restartPolicyType = "ALWAYS"

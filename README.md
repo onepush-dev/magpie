@@ -24,7 +24,7 @@ Use a gateway key as the API key and `https://<your-domain>/v1` as the base URL 
 ## Notes
 - Anyone with `MAGPIE_WEB_KEY` can change magpie and see its keys: keep it secret, rotate it by changing the variable.
 - Optional variables: `MAGPIE_ALLOW_IPS` (restrict client IPs; behind Railway's proxy every request comes from the proxy, so usually leave unset), `DO_NOT_TRACK=1` (turn off magpie's anonymous daily usage ping), `DISABLE_AUTOUPDATER=1` (hold the Claude Code build magpie downloads).
-- The wrapper fixes `/config` ownership for uid 65532 and runs `magpie web --addr 0.0.0.0:$PORT --no-open`.
+- The wrapper fixes `/config` ownership for uid 65532 and runs `magpie web --addr 0.0.0.0:3430 --no-open` (port from `MAGPIE_WEB_PORT`, default 3430; the Railway domain targets 3430).
 - Update by bumping the image tag; data stays on the volume.
 
 ## License
