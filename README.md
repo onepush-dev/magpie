@@ -1,6 +1,6 @@
 # magpie on Railway: one AI gateway for Claude Code, Codex, Gemini CLI, OpenCode and more
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PLACEHOLDER)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rwzfwn)
 
 [magpie](https://github.com/yetone/magpie) (MIT, by yetone) puts every coding agent behind one gateway: any model for any agent, API keys or the subscriptions you already pay for (Claude, ChatGPT, Copilot, Gemini, Grok), failover between accounts, routing groups, usage and quota tracking. This template runs magpie's documented server mode: the browser UI (gateway mode) on one HTTPS Railway domain, which also answers the gateway's `/v1` routes, so your agents on any computer can use it.
 
